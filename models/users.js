@@ -6,22 +6,22 @@ const userSchema = new mongoose.Schema({
     type: String,
     minlength: 2,
     maxlength: 30,
-    required: true
+    required: true,
   },
   about: {
     type: String,
     minlength: 2,
     maxlength: 30,
-    required: true
+    required: true,
   },
   avatar: {
     type: String,
     required: true,
     validate: {
       validator: (v) => validator.isURL(v),
-      message: 'URL validation failed'
+      message: 'URL validation failed',
     },
-  }
+  },
 });
 
 module.exports = mongoose.model('user', userSchema);
