@@ -1,8 +1,8 @@
 {
   "name": "OlegPeunovSprint-13.github.io",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Projekt for studing mongo-DB",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/OlegPeunov/OlegPeunovSprint-13.github.io.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Peunov Oleg",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OlegPeunov/OlegPeunovSprint-13.github.io/issues"
